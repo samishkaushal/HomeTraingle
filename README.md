@@ -4,7 +4,7 @@ A modern and responsive home services website built using **HTML, CSS, and JavaS
 
 ## 🚀 Live Demo
 
-🌐 **Vercel:** https://home-traingle-3t1fcww12-samish1.vercel.app
+🌐 **Vercel:**https://home-traingle.vercel.app/
 
 🌐 **GitHub Pages:** https://samishkaushal.github.io/HomeTraingle/
 
