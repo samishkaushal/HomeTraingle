@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="login.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<div class="login-box">
+
+    <img src="logo.png" alt="Logo" class="logo">
+
+    <h3>Log In <span>or</span> Sign Up</h3>
+
+    <div class="phone-box">
+        <div class="code">+91 </div>
+        <!-- <input type="text" placeholder="Enter your phone number"> -->
+         <input type="text" id="phone" placeholder="Enter your phone number" maxlength="10">
+    </div>
+
+    <!-- <button>Continue</button> -->
+     <button id="continueBtn" >Continue</button>
+     
+
+    <p>
+        By continuing, you agree to our
+        <a href="terms.html">Terms & Conditions</a>
+        and updates on WhatsApp.
+    </p>
+
+</div>
+<div id="popup" class="popup">
+    OTP sent successfully to +91 <span id="number"></span> ✅
+</div>
+</body>
+<script src="login.js"></script>
+</html>
